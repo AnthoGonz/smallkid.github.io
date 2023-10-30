@@ -9,5 +9,5 @@
     $headers = "From: $myemail\n";
     mail($to,$email_subject,$email_body,$headers);
     //redirect to the 'thank you' page
-    header('Location: index.html');
+    header('Location: thanks.html');
     ?>
